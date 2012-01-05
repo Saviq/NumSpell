@@ -1,0 +1,17 @@
+=== numspell ===
+
+This simple function converts integer numbers to words, allowing for easy
+translation and tweaking.
+
+Just call numspell.numspell(1234) for "one thousand, two hundred and thirty-four".
+
+Second and third argument are gettext and ngettext functions that will be used
+for translation, fourth argument is used as separator.
+
+Additional keyword arguments:
+* fix_units
+* fix_tens
+* fix_teens
+* fix_hundreds
+* fix_magnitude
+Are pre- and post-fixes for all the different parts, separated by a new line.
